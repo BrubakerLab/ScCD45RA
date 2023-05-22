@@ -2,7 +2,7 @@
 ScCD45RA is a simple model that predict the CD45RA+/- label of cells in scRNA-seq analysis.
 
 ## Installation
-pip install sccd45ra
+```pip install sccd45ra```
 
 ## Usage
 The function expects pre-processed, normalized, and log-transformed scRNA-seq AnnData. To predict the CD45RA label, simply use:
