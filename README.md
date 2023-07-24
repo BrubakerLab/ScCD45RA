@@ -14,7 +14,7 @@ from sccd45ra import cd45ra_infer
 cd45ra_infer(adata)
 ```
 
-and the prediction (a boolean array) will be added to the adata.obs as 'CD45RA_predict'. Call adata.obs['CD45RA_predict'] to see the result.
+and the prediction (a boolean array) will be added to the `adata.obs` as `'CD45RA_predict'`. Call `adata.obs['CD45RA_predict']` to see the result.
 
 
 ## Publication
