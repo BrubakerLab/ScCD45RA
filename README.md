@@ -1,4 +1,4 @@
-# Project Title
+# ScCD45RA
 ScCD45RA is a simple model that predicts the CD45RA+/- label of cells in scRNA-seq analysis.
 
 ## Installation
