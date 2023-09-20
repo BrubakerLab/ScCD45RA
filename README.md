@@ -7,14 +7,14 @@ pip install sccd45ra
 ```
 
 ## Usage
-The function expects **pre-processed, normalized, and log-transformed (corrected count by SCTransform is also good)** scRNA-seq `AnnData`. To predict the CD45RA label, simply use the following:
+The function expects **pre-processed, normalized, and log-transformed (corrected scaled count by SCTransform is also good)** scRNA-seq `AnnData`. To predict the CD45RA label, simply use the following:
 
 ```
 from sccd45ra import cd45ra_infer
 cd45ra_infer(adata)
 ```
 
-and the prediction (a boolean array) will be added to the `adata.obs` as `'CD45RA_predict'`. Call `adata.obs['CD45RA_predict']` to see the result.
+and the prediction (a string array) will be added to the `adata.obs` as `'CD45RA_predict'`. Call `adata.obs['CD45RA_predict']` to see the result.
 
 
 ## Publication
